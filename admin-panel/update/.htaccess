@@ -1,0 +1,10 @@
+Options -Indexes
+
+RewriteEngine on
+ErrorDocument 404 /admin-panel/404.php
+RewriteRule ^category?$ category.php
+RewriteRule ^admin?$ admin.php
+RewriteRule ^user?$ user.php
+RewriteRule ^category/([^/]*)?$ category.php?slug=$1
+
+ 

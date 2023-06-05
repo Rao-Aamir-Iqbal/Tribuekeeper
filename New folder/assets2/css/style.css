@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+@font-face {
+  font-family: 'themify';
+  src: url('/assets/fonts/fonts/themify.eot');
+  src: url('/assets/fonts/fonts/themify.svg'); 
+  src: url('/assets/fonts/fonts/themify.ttf');
+  src: url('/assets/fonts/fonts/themify.woff');
+}
+  .b-color{
+    background-color: #F9F9FC;
+  }
+  .bg-color{
+    background-color: #EAEAEA;
+  }
+  .bgb-color{
+    background-color: rgb(29, 29, 29);
+  }
+  .bgw-color{
+    background-color: white;
+  }
+  .white{
+    color: white!important;
+  }
+  .black{
+    color: black;
+  }
+  .light-black{
+    color:#555555;
+  }
+  .blue{
+    color: #0099CC;
+  }
+  .navbar-nav{
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .navbar-nav li{
+    padding-left:35px;
+  }
+  .navbar-brand{
+    margin-left: -20px;
+  }
+  .navbar-brand img{
+    width: 300px!important;
+  }
+  .serch{
+    border-radius: 50px!important;
+    border: none!important;
+    height: 30px;
+    width: 20%!important;
+    margin-top: 4px;
+    margin-left: 10px;
+  }
+
+  .shopping-cart{
+    font-size: 16px;
+}
+.help-alt{
+   font-size: 15px; 
+}
+.font-siz-17{
+   font-size: 17px; 
+}
+.card{
+  border: none!important;
+}
+
+.card-dv{
+  height:200px;
+   border-radius: 15px 15px 0px 0px;
+   
+}
+.card-dv-1{
+width: 150px;
+ 
+margin-top :100px!important;
+
+ margin-left:110px!important;
+ 
+}
+.card-dv-1 img{
+ width: 150px;
+  z-index: 1;
+  border-radius: 100px!important;
+  
+}
+.circle-img{
+ background-color: #f8f9fa;
+  border-radius: 0px 0px 15px 15px;
+ 
+}
+.circle-img-text{
+ margin-top: -10px;
+  margin-left: 250px!important;
+ 
+}
+.circle-img h5{
+ font-weight: 700;
+ 
+}
+.Followers{
+margin-top: -70px;
+margin-right: -23px;
+
+}
+.main-profile-icons{
+margin-bottom: -15px;
+
+}
+.main-profile-icons .catagories{
+margin-top: 40px;
+
+}
+.about-sect{
+background-color: #f8f9fa;
+border-radius: 15px;
+height: 330px;
+
+}
+.about-sect-start{
+display: flex;
+justify-content: center;
+
+}
+.about-sect-1 span{
+color: #0099CC;
+padding:20px 20px 20px 0px!important;
+
+}
+.about-sect-2 span{
+color: #0099CC;
+padding: 5px;
+
+}
+.main-about-colom-2{
+background-color: #f8f9fa;
+border-radius: 15px;
+height: 330px;
+margin-right: -20px!important;
+
+}
+.main-about-colom-2 h5{
+font-weight: 700;
+font-size: 17px;
+
+}
+.profile-text{
+margin-top: 15px;
+
+}
+  .sec-personal{
+     
+    background-size: cover;
+    opacity: 1 ;
+    background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01))
+  }
+  .card-registration{
+    background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01))
+ 
+  }
+  .sec-personal-1{
+     
+    background-size: cover;
+    opacity: 1 ;
+    background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01));
+  }
+  .card-registration-1{
+    background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01));
+ 
+  }
+ 
+  .bdr{
+    background-color: #ececec;
+    border-radius: 50px 0px 0px 50px;
+    /* box-shadow: 1px 1px 12px #b8b8b8; */
+  }
+  .img-1{
+    background-image: url('/assets/imaages/beach.png');
+    border-radius: 15px 15px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  .catagories{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+  .catagories a{
+    text-decoration: none;
+    padding:30px;
+    color:#003B59;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  .catagorie{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: left;
+    width: 100%;
+  }
+  .catagorie a{
+    text-decoration: none;
+    padding:30px;
+    color:#003B59;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+ 
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+  /* Center the divs horizontally */
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Style the button */
+  button {
+    background-color: #0099cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .logo-1{
+    margin-top: -60px; 
+    margin-left: 30px;
+  }
+  .log0-1-1{
+    background-color: #dde6ff; 
+    border-radius: 50%;  
+    height: 100px; 
+    width: 100px; 
+    padding-top: 20px; 
+  }
+  .logo-1 img{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+  }
+ 
+  .log0-1-1:hover{
+    background-color: #0099cc; 
+    border-radius: 50%;  
+    height: 100px; 
+    width: 100px; 
+    padding-top: 20px; 
+  }
+
+  .card-registration{
+    background-color: #f8f9fa;
+     border: none;
+     border-radius: 20px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+  }
+  .card-body h1{
+    font-size: 30px;
+     font-weight: 700;
+     color: #0099CC;
+    
+  }
+  .card-body h3{
+    font-size: 25px;
+     font-weight: 700;
+    
+  }
+  .signup-hr{
+    width:80%;
+     text-align: center;
+      
+  }
+  .sign-up-input-box{
+    border:none;
+     border-radius: 10px;
+     font-size: medium;
+     padding: 10px;
+    
+  }
+ .sign-up-radio-box{
+    border-radius: 10px;
+     font-size: medium;
+    
+ }
+ .signup-select-box{
+  border:none;
+   border-radius: 10px;
+   font-size: medium;
+   padding: 8px;
+  
+}

@@ -1,0 +1,34 @@
+<?php
+	
+		require_once "requires/connect.php";
+	if(isset($_GET['delete'])){
+
+    $id = $_GET['delete'];
+    
+    $sql = "DELETE FROM `users` WHERE id = {$id}";
+    
+     $result = mysqli_query($connect , $sql);
+
+    
+    if($result){
+       echo  "<div class='alert alert-success' role='alert'>
+ Delete it successfully
+</div>";
+        header("Location: /admin-panel/users");
+       }else{
+                            $_SESSION['update_error'] = "Unable to delete the order! Please try again...";
+
+                            header("Location: /admin-panel/users");
+
+                           
+
+       }
+
+  
+
+};
+
+
+
+
+?>

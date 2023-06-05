@@ -1,0 +1,107 @@
+Options -Indexes
+# ErrorDocument 404 /404.php
+RewriteRule ^signup?$ signup.php
+RewriteRule ^signup/profile?$ signup_form.php
+RewriteRule ^signup/memorial?$ signup_with_memorial.php
+RewriteRule ^login?$ login_form.php
+RewriteRule ^otp?$ otp_form.php
+RewriteRule ^otp_email?$ otp_email_form.php
+RewriteRule ^reset/([^/]*)?$ reset_pass_form.php?email=$1
+RewriteRule ^edit_password?$ edit_password_form.php
+RewriteRule ^reset_notice?$ reset_password.php
+RewriteRule ^edit_email?$ edit_email_form.php
+# RewriteRule ^reset-p?$ reset_pass_form.php
+RewriteRule ^forget?$ forget_form.php
+RewriteRule ^profile?$ personal.php
+RewriteRule ^payment?$ payment.php
+RewriteRule ^keeper_payment?$ keeper_payment.php
+RewriteRule ^keeper_plus?$ keeper_plus_features.php
+RewriteRule ^success_payment?$ success_payment.php
+RewriteRule ^success_keeper_payment?$ success_keeper_payment.php
+RewriteRule ^cancel_payment?$ cancel_payment.php
+RewriteRule ^mementose/([^/]*)?$ mementose.php?username=$1
+RewriteRule ^network/([^/]*)?$ network.php?username=$1
+RewriteRule ^edit/mementose/([^/]*)?$ edit_mementose.php?username=$1
+RewriteRule ^search?$ search.php
+RewriteRule ^messages?$ messages.php
+RewriteRule ^message/([^/]*)?$ messages_thread.php?username=$1
+RewriteRule ^logout?$ logout.php
+RewriteRule ^reactivation_page?$ reactivation_page.php
+RewriteRule ^profile/([^/]*)?$ profile.php?username=$1
+RewriteRule ^tributes_approval/([^/]*)?$ tributes_comments_approve.php?username=$1
+RewriteRule ^view_comments/([^/]*)?$ view_comments.php?view=$1
+RewriteRule ^faqs?$ faqs.php
+
+RewriteRule ^view_comments?$ view_comments_approve.php
+
+RewriteRule ^events/([^/]*)?$ events_page.php?username=$1
+RewriteRule ^event/(.*)$ event_detail.php?title=$1 [L]
+RewriteRule ^events_form/([^/]*)?$ events_form.php?username=$1
+RewriteRule ^keeper/([^/]*)?$ keeper.php?username=$1
+RewriteRule ^family/([^/]*)?$ family.php?username=$1
+# RewriteRule ^approved/([^/]*)?$ approved_family.php?hidden_field_id=$1
+RewriteRule ^approved/([^/]+)/(\d+)$ approved_family.php?relationship=$1&hidden_field_id=$2 [L]
+RewriteRule ^approved_admin/([^/]*)?$ approved_admin.php?admin_id=$1
+RewriteRule ^add-family-member/([^/]*)?$ add-family-member.php?gender=$1
+RewriteRule ^edit-family-member/([^/]+)/([^/]+)$ edit-family-member.php?gender=$1&id=$2 [L]
+RewriteRule ^edit-family-member/([^/]+)/(\d+)$ edit-family-member.php?gender=$1&id=$2 [L]
+
+# RewriteRule ^add-family-member?$ add-family-member.php
+RewriteRule ^edit_profile/([^/]*)?$ edit_profile.php?username=$1
+RewriteRule ^edit_profile_picture/([^/]*)?$ edit_picture_profile.php?username=$1
+RewriteRule ^edit_settings/([^/]*)?$ edit_setting.php?username=$1
+RewriteRule ^contact_us/([^/]*)?$ contact_us.php?username=$1
+RewriteRule ^edit_memorial/([^/]*)?$ edit_memorial.php?username=$1
+RewriteRule ^keeper_session/([^/]+)/([^/]+)$ keeper_session.php?keeper_id=$1&username=$2 [L]
+RewriteRule ^memorial_session/([^/]+)/([^/]+)$ memorial_session.php?memorial_id=$1&username=$2 [L]
+
+
+
+
+
+#RewriteRule ^profile/([^/]*)/([^/]*)?$ profile.php?param1=$1&param2=$2 [L]
+
+# php_value display_errors on
+# php_value session.cookie_httponly On
+# php_value session.use_only_cookies On
+# php_value session.cookie_lifetime 0
+# php_value session.use_strict_mode On
+# php_value session.hash_function "sha256"
+# php_value session.cookie_secure true
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+# <IfModule php7_module>
+#    php_flag display_errors Off
+#    php_value max_execution_time 160
+#    php_value max_input_time 90
+#    php_value max_input_vars 3000
+#    php_value memory_limit 64M
+#    php_value post_max_size 1024M
+#    php_value session.gc_maxlifetime 43200
+#    php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+#    php_value upload_max_filesize 1024M
+#    php_flag zlib.output_compression Off
+# </IfModule>
+# <IfModule lsapi_module>
+#    php_flag display_errors Off
+#    php_value max_execution_time 160
+#    php_value max_input_time 90
+#    php_value max_input_vars 3000
+#    php_value memory_limit 64M
+#    php_value post_max_size 1024M
+#    php_value session.gc_maxlifetime 43200
+#    php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+#    php_value upload_max_filesize 1024M
+#    php_flag zlib.output_compression Off
+# </IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

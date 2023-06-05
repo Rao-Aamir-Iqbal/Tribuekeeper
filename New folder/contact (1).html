@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="/footer css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="memorial.css">
+    <!-- java script link -->
+    <link rel="stylesheet" href="assets/js/script.js">
+    <!-- Boostrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- font icon link -->
+    <link rel="stylesheet" href="/assets/css/themify-icons.css">
+    <!-- font-family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+       .input-style{
+        border:none; 
+        border-radius: 10px; 
+        font-size: medium;
+       }  
+       .form-outline textarea{
+            height: auto !important;
+        }
+        .text-right{
+            float: right !important;
+            padding-right: 40px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+        
+    <section class="h-100 gradient-custom-2">
+
+        <div class="img-1 text-white d-flex flex-row card-dv">
+            <div class="ms-4 mt-5 d-flex flex-column card-dv-1">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp"
+                alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2">
+             
+            </div>
+          </div>
+        
+          <div class="p-4 text-black  circle-img">
+            <div class="ms-3 circle-img-text">
+              <h5>Catherin Horwitz</h5>
+              <p class="text-muted">New York</p>
+            </div>
+        
+            <div class="d-flex justify-content-end text-center py-1 Followers">
+              <div class="px-3 d-flex ">
+                <span class="ti-facebook px-2 blue"></span>
+                <span class="ti-twitter px-2 blue"></span>
+                <span class="ti-instagram px-2 blue"></span>
+              </div>
+            </div>
+        
+            <div class="main-profile-icons mrgn-tp" style="margin-top: -20px; margin-bottom: 30px;">
+              <div class="d-flex mar-top">
+                              <div >
+                                  <a href="#" class="ti-user circle "><span class="fa">Profile</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-image circle "><span class="fa">Memento</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-lock circle"><span class="fa">Keeper</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-user circle mt-d"><span class="fa">Family</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-calendar circle mt-c"><span class="fa">Event</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-email circle mt-b"><span class="fa">Massage</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-plus circle mt-a"><span class="fa">Keeper</span></a>
+                              </div>
+              </div>
+            </div>
+          </div>
+        
+        <div class="container py-5 h-100 " >
+            <div class="card">              
+                <div class=" row pt-4 text-black">
+                    <div class=" col-md-12 " >
+                        <div class="p-4 edit-profile-border" >
+                            <div class="row ">
+                                <div class="col-md-12 hr-div" >
+                                    <h3 class="pt-3" >Create a Memorial Profile</h1>
+                                </div>
+                                <div class="hr-div" >
+                                    <hr> 
+                                    <p>We respond to all inquiries promptly!</p>
+                                </div>
+                                
+                               <div class="hr-div">
+                                    <div class=" row ">
+                                        <div class="col-md-10">
+                                            <div class="row py-2">
+                                              <div class="col-md-5 mb-4" >
+                                                <div class="form-outline">
+                                                    <label for="">Your Email</label>
+                                                  <input type="email" id="form3Example1m" placeholder="name@email.com" class="form-control form-control-lg input-style"  />
+                                                </div>
+                                              </div>
+                                                <div class="col-md-5 mb-4">
+                                                  <div class="form-outline">
+                                                    <label for="">Message Type:</label>
+                                                    <select id="contactType" class="form-select form-control form-control-lg input-style" >
+                                                        <option value="general_inquiries" selected>General Inquiries </option>
+                                                        <option value="feedback">Feedback </option>
+                                                        <option value="advertise">Advertise </option>
+                                                        <option value="tech_support">Tech Support </option>
+                                                        <option value="partners">Keeper Partners </option>
+                                                        <option value="careers">Careers </option>
+                                                        <option value="refund_request">Refund Request </option>
+                                                        <option value="change_remove_memorial">Change/Remove Memorial </option>
+                                                        <option value="virtual_funerals">Virtual Funerals </option>
+                                                        </select>
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-5  mb-4 " >
+                                                    <div class="form-outline">
+                                                        <label for="">Your First Name:</label>
+                                                      <input type="text" id="form3Example1n" placeholder="First Name" class="form-control form-control-lg input-style" />
+                                                    </div>
+                                                </div>    
+                                                <div class="col-md-5 mb-4 ">
+                                                  <div class="form-outline">
+                                                    <label for="">Your Last Name:</label>
+                                                    <input type="text" id="form3Example1m" placeholder="Last Name" class="form-control form-control-lg input-style"/>
+                                                  </div>
+                                                </div>
+                                                                              
+                                                 <div class="col-sm-10  mb-4 ">
+                                                    <div class="form-outline ">
+                                                        <label for="">Message:</label>
+                                                        <textarea id="txtMsg" rows="5" class="form-control form-control-lg input-style" placeholder="Message" ></textarea>
+                                                    </div>
+                                                 </div>
+                                                 <div class="mt-4">
+                                                    <button class="btn btn-primary form-control-sm mx-3" ><a href="#" style="text-decoration: none;color: white;">Send</a></button>
+                                                </div>
+                                                
+                                                
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mt-4">
+                                                <p class="text-right">
+                                                    Contact us by email:
+                                                    
+                                                    <a id="email-info" href="mailto:info@mykeeper.com">info@mykeeper.com</a> | <a id="email-support" href="mailto:support@mykeeper.com">support@mykeeper.com</a>
+                                                    </p>
+                                            </div>
+                                       
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+   
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+   
+</body>
+</html>

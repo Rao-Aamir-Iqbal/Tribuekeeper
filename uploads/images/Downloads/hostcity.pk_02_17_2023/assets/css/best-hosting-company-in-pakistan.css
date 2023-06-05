@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.best-hosting-company-in-pakistan{
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #F9F9FC !important;
+   
+}
+.best-hosting-company-in-pakistan p{
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 1.6 !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.best-hosting-company-in-pakistan h1{
+    font-size: 36px !important;
+    font-weight: 500 !important;
+}
+.best-hosting-company-in-pakistan li{
+    font-weight: 300 !important;
+    font-family: 'Raleway', sans-serif !important;
+    line-height: 1.8 !important;
+
+}
+.best-hosting-company-in-pakistan ul{
+    padding:0px !important
+}
+.best-hosting-company-in-pakistan .about-us .main{
+   background-color: #58b7fb !important;
+    border-radius: 20px 0px 20px 0px !important;  
+}
+.best-hosting-company-in-pakistan .main .idea-para{
+    margin-left: 10px !important;
+}
+.best-hosting-company-in-pakistan .points{
+    margin-top: 30px !important;
+}
+.best-hosting-company-in-pakistan .inner-body-middle{
+    margin-top: 50px !important;
+}
+.best-hosting-company-in-pakistan .host-provider p{
+    line-height: 1.8 !important;
+    
+}
+.best-hosting-company-in-pakistan .host-provider h2{
+    line-height: 2.3 !important;
+}
+.best-hosting-company-in-pakistan .host-provider .year{
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    color: black !important;
+    
+}
+.best-hosting-company-in-pakistan .host-provider span{
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    color: #007FFF !important;
+}
+.best-hosting-company-in-pakistan .inner-img{
+   margin-left: 20px !important;
+}
+
+.best-hosting-company-in-pakistan .hosting-company{
+    margin-top: 80px !important;
+    height: auto !important;
+    margin-bottom: 50px !important;
+    
+}
+ /* .hosting-company .search-item{
+    box-shadow: 5px 3px 9px silver;
+    border-radius: 20px 20px 20px 20px;   */
+
+
+.best-hosting-company-in-pakistan .search-item img{
+   margin-top: 30px !important;
+   margin-left: 33px !important;
+ 
+}
+.best-hosting-company-in-pakistan .search-content{
+    margin-right: 79px !important;
+}
+
+
+.best-hosting-company-in-pakistan .side-plan{
+    /* background-color: #3299ff; */
+    height: 100% !important;
+    width: 70% !important;
+    /* box-shadow: 1px 2px 10px black; */
+   bottom: 12% !important;
+    position: relative !important;
+}
+
+.best-hosting-company-in-pakistan .hosting-types{
+    margin-top: 30% !important;
+}
+
+/* ------------------------------------------------ */
+
+
+.best-hosting-company-in-pakistan .card-1 i{
+    color: #3299ff !important;
+}
+
+
+.best-hosting-company-in-pakistan .best-hosting{
+    margin-top: 50px !important; 
+    margin-bottom: 20px !important;
+}
+
+.best-hosting-company-in-pakistan .disadvantages{
+    background-color: white !important;
+}
+
+.best-hosting-company-in-pakistan .platform-links i{
+justify-content: space-around !important;
+}
+.best-hosting-company-in-pakistan .faq-s{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+
+
+
+
+
+/* ..................................................... */

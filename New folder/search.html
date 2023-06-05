@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="/footer css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="memorial.css">
+    <!-- java script link -->
+    <link rel="stylesheet" href="assets/js/script.js">
+    <!-- Boostrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- font icon link -->
+    <link rel="stylesheet" href="/assets/css/themify-icons.css">
+    <!-- font-family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+         .table{
+            width: 100%;
+         }
+        .serc-pad{
+            margin-left: 150px;
+            margin-top: 3px;
+        }
+         .align-right{
+            text-align: right;
+            justify-content: right;
+            align-items: right;
+            display: flex;
+            width: 100%;
+         }
+         
+        #select-style{
+            display:inline-block;
+            max-width:150px;
+        }
+        .form-control{
+            height: 34px;
+            padding: 0px 12px;
+            font-size: 14px;
+            color: #555;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+        option {
+            font-weight: normal;
+            display: block;
+            white-space: nowrap;
+            min-height: 1.2em;
+            padding: 0px 2px 1px;
+        }
+        .img{
+            width: 60px;
+        }
+        .img-head{
+            width: 100px;
+            height: 100px; 
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px;
+        }
+        .profile-image{
+            width: 100px;
+            height: 100px;
+            border: 3px solid #eee;
+            box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+            border-radius: 50%;
+            background-color: white;
+            }
+        .name-td a{
+            font-weight: bold;
+            color: #003B59;
+            text-decoration: none;
+            margin-top: 20px!important;
+         }
+        .pfooter{
+            padding: 10px 15px;
+        }
+        .input-search{
+            margin-bottom: 3px;
+            background-color: #003B59;
+            color: white;
+        }
+        .input-search:hover{
+            margin-bottom: 3px;
+            background-color: #003B59;
+            color: white;
+        }
+        .mrle{
+            margin-left: 20px;
+        }
+       
+@media (max-width: 992px) {
+    .serc-pad{
+            margin-left: 50px;
+        }
+        .input-search{
+            margin-top: 30px;
+        }
+        .mrle{
+            margin-left: 0px;
+        }
+}
+      
+@media (max-width: 768px) {
+    .serc-pad{
+            margin-left: 0px;
+            margin-bottom: -10px;
+        }
+}
+    
+@media (max-width: 420px) {
+    .hr-div{
+        margin-left: -25px;
+    }
+    
+}
+       
+    </style>
+</head>
+<body>
+
+        
+    <section class="h-100 gradient-custom-2">
+
+        <div class="img-1 text-white d-flex flex-row card-dv">
+            <div class="ms-4 mt-5 d-flex flex-column card-dv-1">
+              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-profiles/avatar-1.webp"
+                alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2">
+             
+            </div>
+          </div>
+        
+          <div class="p-4 text-black  circle-img">
+            <div class="ms-3 circle-img-text">
+              <h5>Catherin Horwitz</h5>
+              <p class="text-muted">New York</p>
+            </div>
+        
+            <div class="d-flex justify-content-end text-center py-1 Followers">
+              <div class="px-3 d-flex ">
+                <span class="ti-facebook px-2 blue"></span>
+                <span class="ti-twitter px-2 blue"></span>
+                <span class="ti-instagram px-2 blue"></span>
+              </div>
+            </div>
+        
+            <div class="main-profile-icons mrgn-tp" style="margin-top: -20px; margin-bottom: 30px;">
+              <div class="d-flex mar-top">
+                              <div >
+                                  <a href="#" class="ti-user circle "><span class="fa">Profile</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-image circle "><span class="fa">Memento</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-lock circle"><span class="fa">Keeper</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-user circle mt-d"><span class="fa">Family</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-calendar circle mt-c"><span class="fa">Event</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-email circle mt-b"><span class="fa">Massage</span></a>
+                              </div>
+                              <div >
+                              <a href="#" class="ti-plus circle mt-a"><span class="fa">Keeper</span></a>
+                              </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="container py-5 h-100 " >
+            <div class="card">              
+                <div class=" row pt-4 text-black">
+                    <div class=" col-md-12 " >
+                        <div class="p-4 edit-profile-border" >
+                            <div class="row ">
+                                <div class="col-md-12 hr-div" >
+                                    <h3 class="pt-3" >Search Result</h1>
+                                </div>
+                                <div class="hr-div" >
+                                    <hr> 
+                                </div>
+                                
+                               <div class="hr-div">
+                                    <div class=" row ">
+                                        <div class="" >
+                                            <table class="table ">
+                                                <div class="d-flex mt-3">
+                                                    <div class="serc-pad">
+                                                         <b class=" ">Name</b>
+                                                    </div>
+                                                    <div class="align-right">
+                                                        <label class="p-1" for="">Sort By: </label>
+                                                        <select name="" id="select-style" class="form-control" >
+                                                            <option value="date_of_death">Date Of Death</option>
+                                                            <option value="firstname">First Name</option>
+                                                            <option value="lastname">Last Name</option>
+                                                            <option value="relevance" selected="selected">Relevance</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                            <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                    <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                                </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <div class="img-head">
+                                                                <img src="/4-200x200.jpg" class="profile-image" alt="Test Test" title="Test Test">
+                                                            </div>
+                                                        </td>
+                                                        <td class="name-td" colspan="2">
+                                                             <div class="mt-5">
+                                                                <a href="" title="Test Test" class="mt-4">Test Test</a>
+                                                            </div>
+                                                        </td>
+                                                            </p>
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+
+                                            </table>
+                                        </div>
+                                        <div class="pfooter">
+                                            <form role="search"  method="post">
+                                                <input class="form-control" id="input-search" type="text" name="query" placeholder="Search" aria-label="Search" style="display: inline; max-width: 400px; height: 38px;" >
+                                                <button class="btn input-search mrle" id="input-search" type="submit">Search</button>
+                                                <button class="btn input-search" id="input-search">Browse</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <footer class="footer-07">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <h2 class="footer-heading"><a href="#" class="logo" style="text-decoration: none; ">Keeper</a></h2>
+                    <p class="menu">
+                        <a href="#" style="text-decoration: none; ">About Us</a>
+                        <a href="#" style="text-decoration: none; ">Features</a>
+                        <a href="#" style="text-decoration: none; ">Community</a>
+                        <a href="#" style="text-decoration: none; ">Keeper Plus</a>
+                        <a href="#" style="text-decoration: none; ">Help</a>
+                        <a href="#" style="text-decoration: none; ">Contact</a>
+                    </p>
+                    <ul class="ftco-footer-social" >
+                        <li ><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="ti-instagram white"></span></a></li>
+                        <li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span  class="ti-facebook white"></span></a></li>
+                        <li ><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="ti-twitter white"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+                    <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright All rights reserved | This template is made with <i class="ti-heart"></i> by <a href="https://softileo.com" target="_blank">softileo.com</a>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+   
+</body>
+</html>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+  <g id="Group_336" data-name="Group 336" transform="translate(-740 -1261)">
+    <g id="Ellipse_22" data-name="Ellipse 22" transform="translate(740 1261)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="38" cy="38" r="38" stroke="none"/>
+      <circle cx="38" cy="38" r="37" fill="none"/>
+    </g>
+    <g id="Group_310" data-name="Group 310" transform="translate(72 -4)">
+      <g id="Group_309" data-name="Group 309" transform="translate(685 1283)">
+        <g id="Group_308" data-name="Group 308">
+          <g id="Group_307" data-name="Group 307">
+            <circle id="Ellipse_25" data-name="Ellipse 25" cx="0.91" cy="0.91" r="0.91" transform="translate(3.639 3.639)" fill="#fff"/>
+            <circle id="Ellipse_26" data-name="Ellipse 26" cx="0.91" cy="0.91" r="0.91" transform="translate(7.278 3.639)" fill="#fff"/>
+            <circle id="Ellipse_27" data-name="Ellipse 27" cx="0.91" cy="0.91" r="0.91" transform="translate(10.917 3.639)" fill="#fff"/>
+            <path id="Path_367" data-name="Path 367" d="M-251.479,344.972h-2.729v-2.729a.909.909,0,0,0-.91-.91.909.909,0,0,0-.91.91v2.729h-2.729a.909.909,0,0,0-.91.91.909.909,0,0,0,.91.91h2.729v2.729a.909.909,0,0,0,.91.91.909.909,0,0,0,.91-.91v-2.729h2.729a.909.909,0,0,0,.91-.91A.909.909,0,0,0-251.479,344.972Z" transform="translate(288.778 -312.222)" fill="#fff"/>
+            <path id="Path_368" data-name="Path 368" d="M-560.972,25.947V3.639A3.642,3.642,0,0,0-564.611,0h-32.75A3.642,3.642,0,0,0-601,3.639v32.75a3.643,3.643,0,0,0,3.639,3.639h22.308a9.991,9.991,0,0,0,7.713,3.639A10.018,10.018,0,0,0-557.333,33.66,9.99,9.99,0,0,0-560.972,25.947ZM-599.181,3.639a1.822,1.822,0,0,1,1.819-1.819h32.75a1.822,1.822,0,0,1,1.819,1.819V7.278h-36.389Zm1.82,34.569a1.822,1.822,0,0,1-1.819-1.819V9.1h36.389v15.66a9.935,9.935,0,0,0-4.549-1.1A10.018,10.018,0,0,0-577.347,33.66a9.935,9.935,0,0,0,1.1,4.549Zm30.021,3.639a8.2,8.2,0,0,1-8.187-8.187,8.2,8.2,0,0,1,8.188-8.187,8.2,8.2,0,0,1,8.188,8.187A8.2,8.2,0,0,1-567.34,41.847Z" transform="translate(601)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectangle_444" data-name="Rectangle 444" width="16" height="1" transform="translate(691 1297)" fill="#fff"/>
+      <rect id="Rectangle_445" data-name="Rectangle 445" width="16" height="1" transform="translate(691 1301)" fill="#fff"/>
+      <rect id="Rectangle_446" data-name="Rectangle 446" width="16" height="1" transform="translate(691 1305)" fill="#fff"/>
+      <rect id="Rectangle_447" data-name="Rectangle 447" width="16" height="1" transform="translate(691 1309)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

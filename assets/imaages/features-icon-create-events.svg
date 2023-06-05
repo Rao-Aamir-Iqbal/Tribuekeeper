@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+  <g id="Group_228" data-name="Group 228" transform="translate(-691 -1959)">
+    <g id="Ellipse_22" data-name="Ellipse 22" transform="translate(691 1959)" fill="none" stroke="#fff" stroke-width="2">
+      <circle cx="38" cy="38" r="38" stroke="none"/>
+      <circle cx="38" cy="38" r="37" fill="none"/>
+    </g>
+    <g id="Group_227" data-name="Group 227" transform="translate(109.251 21.475)">
+      <path id="border" d="M414.138,213v25.388c0,1.829-1.484,3.863-3.312,3.863H374.952c-1.829,0-3.312-2.034-3.312-3.863V213h2.208v25.463c0,1.177.408,1.581,1.593,1.581h34.9c1.184,0,1.594-.4,1.594-1.581L411.968,213Z" transform="translate(227.36 1754.798)" fill="#fff" stroke="#fff" stroke-width="1" fill-rule="evenodd"/>
+      <path id="top" d="M42.5,8.83H0V3.453C0,2.141,1.627,0,2.912,0H39.586C40.872,0,42.5,2.141,42.5,3.453V8.83ZM32.564,2.207a2.76,2.76,0,1,0,2.759,2.76A2.763,2.763,0,0,0,32.564,2.207Zm-22.63,0a2.76,2.76,0,1,0,2.76,2.76A2.763,2.763,0,0,0,9.935,2.207Z" transform="translate(599 1957.312)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path" width="7.174" height="4.416" stroke-width="1" fill="#fff" stroke="#fff" transform="translate(603.416 1972.765)"/>
+      <rect id="Path-2" data-name="Path" width="7.176" height="4.416" transform="translate(612.246 1972.765)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-3" data-name="Path" width="7.174" height="4.416" transform="translate(621.077 1972.765)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-4" data-name="Path" width="7.176" height="4.416" transform="translate(629.908 1972.765)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-5" data-name="Path" width="7.174" height="4.415" transform="translate(603.416 1979.388)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-6" data-name="Path" width="7.176" height="4.415" transform="translate(612.246 1979.388)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-7" data-name="Path" width="7.174" height="4.415" transform="translate(621.077 1979.388)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-8" data-name="Path" width="7.176" height="4.415" transform="translate(629.908 1979.388)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-9" data-name="Path" width="7.174" height="4.415" transform="translate(603.416 1986.011)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-10" data-name="Path" width="7.176" height="4.415" transform="translate(612.246 1986.011)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-11" data-name="Path" width="7.174" height="4.415" transform="translate(621.077 1986.011)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-12" data-name="Path" width="7.176" height="4.415" transform="translate(629.908 1986.011)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Path-13" data-name="Path" width="42.498" height="1.656" transform="translate(599 1967.798)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <path id="fix" d="M22.63,7.822V1.564C22.63.7,22.816,0,23.729,0s1.1.7,1.1,1.564V7.822c0,.863-.189,1.564-1.1,1.564S22.63,8.685,22.63,7.822ZM0,7.822V1.564C0,.7.188,0,1.1,0S2.2.7,2.2,1.564V7.822c0,.863-.188,1.564-1.1,1.564S0,8.685,0,7.822Z" transform="translate(607.835 1954)" fill="#fff" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

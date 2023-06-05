@@ -1,0 +1,48 @@
+Options -Indexes
+
+
+
+RewriteEngine on
+
+ErrorDocument 404 /404.php
+
+RewriteRule ^video/orders?$ orders/video_orders.php
+
+RewriteRule ^users?$ users.php
+
+RewriteRule ^memorial?$ memorials.php
+
+RewriteRule ^keeper?$ keeper.php
+
+RewriteRule ^transaction?$ transaction.php
+
+
+
+RewriteRule ^mementose_pictures?$ mementose_pics.php
+
+RewriteRule ^mementose_videos?$ mementose_videos.php
+
+RewriteRule ^comments?$ view_mementose_comments.php
+
+RewriteRule ^events?$ events.php
+
+RewriteRule ^contact?$ contact.php
+
+RewriteRule ^keeper_profile?$ keeper_profile.php
+
+RewriteRule ^code?$ otp_code.php
+
+RewriteRule ^newpassword?$ new_pass.php
+
+
+
+
+RewriteRule ^forgot?$ forgot.php
+
+RewriteRule ^logout?$ logout.php
+
+RewriteRule ^login?$ login.php
+
+RewriteRule ^profile?$ profile.php
+
+RewriteRule ^password?$ password.php 

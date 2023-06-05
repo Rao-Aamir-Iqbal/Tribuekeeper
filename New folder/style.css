@@ -1,0 +1,1049 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+@font-face {
+font-family: 'themify';
+src: url('/assets/fonts/fonts/themify.eot');
+src: url('/assets/fonts/fonts/themify.svg'); 
+src: url('/assets/fonts/fonts/themify.ttf');
+src: url('/assets/fonts/fonts/themify.woff');
+}
+.b-color{
+  background-color: #F9F9FC;
+}
+.bg-color{
+  background-color: #EAEAEA;
+}
+.bgb-color{
+  background-color: rgb(29, 29, 29);
+}
+.bgw-color{
+  background-color: white;
+}
+.white{
+  color: white!important;
+}
+.black{
+  color: black;
+}
+.light-black{
+  color:#555555;
+}
+.blue{
+  color: #003B59!important;
+}
+.navbar-nav{
+  justify-content: right;
+  text-align: right;
+  align-items: right;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+}
+.navbar-nav > li{
+  padding-left:15px;
+}
+.navbar-brand{
+  margin-left: -20px;
+}
+.navbar-brand img{
+  width: 300px!important;
+  padding-left: 10px;
+  
+}
+.serch{
+  border-radius: 50px!important;
+  border: none!important;
+  height: 30px;
+  width: 20%!important;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.shopping-cart{
+  font-size: 16px;
+}
+.help-alt{
+ font-size: 15px; 
+}
+.font-siz-17{
+ font-size: 17px; 
+}
+.card{
+border: none!important;
+}
+
+.card-dv{
+height:200px;
+padding-left:90px;
+ 
+}
+.card-dv-1{
+width: 150px;
+padding-top :110px;
+}
+.card-dv-1 img{
+width: 150px;
+z-index: 1;
+border-radius: 100px!important;
+
+}
+.Followers{
+margin-top: -70px;
+margin-right: -23px;
+
+}
+.main-profile-icons{
+margin-bottom: -15px;
+margin-left:250px;
+}
+.pro-img{
+border-radius:50%; height: 300px; width:300px;
+}
+.about-sect{
+background-color: #f8f9fa;
+border-radius: 15px;
+
+
+}
+.about-sect-start{
+display: flex;
+justify-content: center;
+
+}
+.about-sect-1 span{
+color: #0099CC;
+padding:20px 20px 20px 0px!important;
+
+}
+.about-sect-2 span{
+color: #0099CC;
+padding: 5px;
+
+}
+.main-about-colom-2{
+background-color: #f8f9fa;
+border-radius: 15px;
+height: 330px;
+margin-right: -20px!important;
+
+}
+.main-about-colom-2 h5{
+font-weight: 700;
+font-size: 17px;
+
+}
+.profile-text{
+margin-top: 15px;
+
+}
+.sec-personal{
+   
+  background-size: cover;
+  opacity: 1 ;
+  background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01))
+}
+.card-registration{
+  background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01))
+
+}
+.sec-personal-1{
+   
+  background-size: cover;
+  opacity: 1 ;
+  background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01));
+}
+.card-registration-1{
+  background-image: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0.01));
+
+}
+
+.bdr{
+  background-color: #ececec;
+  border-radius: 50px 0px 0px 50px;
+  /* box-shadow: 1px 1px 12px #b8b8b8; */
+}
+.img-1{
+  background-image: url('/assets/imaages/beach.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height:260px;
+}
+
+
+.catagorie{
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: left;
+  width: 100%;
+}
+.catagorie a{
+  text-decoration: none;
+  padding:30px;
+  color:#003B59;
+  font-size: 15px;
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }
+
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+/* Center the divs horizontally */
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the button */
+button {
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.logo-1{
+  margin-top: -60px; 
+  margin-left: 30px;
+}
+.log0-1-1{
+  background-color: #a7bac4; 
+  border-radius: 50%;  
+  height: 100px; 
+  width: 100px; 
+  padding-top: 20px; 
+}
+.logo-1 img{
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.log0-1-1:hover{
+  background-color: #003B59; 
+  border-radius: 50%;  
+  height: 100px; 
+  width: 100px; 
+  padding-top: 20px; 
+}
+
+.card-registration{
+  background-color: #f8f9fa;
+   border: none;
+   border-radius: 20px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  
+}
+.card-body h1{
+  font-size: 30px;
+   font-weight: 700;
+   color: #0099CC;
+  
+}
+.card-body h3{
+  font-size: 25px;
+   font-weight: 700;
+  
+}
+.signup-hr{
+  width:80%; 
+   text-align: center;
+    
+}
+.sign-up-input-box{
+  border:none;
+   border-radius: 10px;
+   font-size: medium;
+   padding: 10px;
+  
+}
+.sign-up-radio-box{
+  border-radius: 10px;
+   font-size: medium;
+  
+}
+.signup-select-box{
+border:none;
+ border-radius: 10px;
+ font-size: medium;
+ padding: 8px;
+
+}
+.edit-profile-border{
+background-color: #f8f9fa;
+ border-radius: 15px;
+
+}
+.edit-profile-row {
+margin-left:90px !important;
+
+}
+.hr-div{
+padding: 0px 25px 0px 25px  !important;
+
+}
+.edit-prof-input-1{
+border: none !important;
+ border-radius: 10px !important;
+ font-size: medium !important;
+
+}
+.edit-prof-input-button{
+border-radius: 10px !important;
+ font-size: medium !important;
+
+}
+.prof-button{
+background-color: #003B59;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+
+}
+
+.prof-button a:hover{
+margin-left: 0px!important;
+}
+.mrgn{
+margin: 0px 90px 0px 90px!important;
+}
+.profile-images{
+display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ margin:30px;
+
+
+}
+.profile-images img{
+border: 1px solid black;
+
+}
+.main-profile-img{
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+.summernode{
+width:83%!important;
+ background-color: white;
+
+}
+#textbox2{
+height:50px;
+border:1px solid rgb(221, 221, 221);
+padding:7px;
+border-radius: 10px;
+
+}
+#dropdown{
+ border:1px solid rgb(221, 221, 221);
+  width:20%;
+  padding:7px;
+  border-radius: 10px;
+
+}
+#fname{
+border-radius: 10px;
+ border: none;
+ width: 30%;
+ padding:4px;
+ margin-left: 5px;
+
+}
+.password{
+  border: none;
+ border-radius: 10px;
+ padding: 6px;
+ margin-bottom: 10px;
+
+}
+.round-icon{
+ background-color: #003B59; border-radius: 50px; width: 80px; height:80px;
+}
+.round-icon h4{
+padding: 10px; margin-left: -22px; 
+}
+
+.round-icon-hover:hover{
+background-color: #003B59; border-radius: 50px; width: 80px; height:80px;
+}
+
+.round-icon-hover h4,a:hover{
+/*padding: 10px; margin-left: -22px; */
+/*color: white!important;*/
+
+}
+.marlf{
+          margin-left:10px!important;
+         
+          
+}
+.circle-img{
+background-color: #f8f9fa!important;
+border-radius: 0px 0px 15px 15px!important;
+
+}
+.circle-img-text {
+margin-top: -10px;
+padding-left: 240px;
+
+}
+.circle-img h5{
+font-weight: 700;
+
+}
+.catagories{
+margin-left:300px!important;
+}
+
+
+.circle{
+background-color: #e4e4e4; 
+font-size:22px!important;
+color:#003B59;
+text-decoration:none;
+width: 80px; 
+height: 80px; 
+border-radius: 50%;
+margin-top: 100px; 
+display: flex;  
+flex-direction:column;
+justify-content: center; 
+align-items: center; 
+text-align: center;
+margin-right:20px;
+}
+.circle .fa{
+font-size:15px;
+margin-top:8px;
+}
+.circle:hover{
+  background-color: #003B59; 
+  color:white;
+}
+
+.prof-link{
+text-decoration: none; 
+color: black;
+}
+.prof-link:hover{
+text-decoration: none!important;
+color: #003B59!important;
+/*margin-left: -10px!important;*/
+}
+.butn-right{
+justify-content: right;
+text-align: right;
+align-items: right;
+display: flex;
+width: 100%;
+margin-top: 40px;
+
+}
+
+.about-borser-bottom{
+border-bottom: 1px solid rgb(192, 192, 192);
+}
+.about-borser .about-borser-td-1{
+width:220px!important;
+
+}
+
+.about-borser .about-borser-td-2{
+  display:flex;
+  justify-content: space-between;
+width:350px!important;
+
+
+  
+}
+.txt-non{
+  text-decoration:none;
+}
+.about-sec-larg-icon{
+height: 80px;
+ width: 80px;
+ background-color: white;
+ border: 2px solid black;
+ border-radius: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ font-size: 40px;
+
+}
+.map-center{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+width: 100%;
+padding-top:40px;
+}
+.every-div-margin{
+  width:40%;
+  margin-left: 70px;
+  
+}
+.every-margin{
+  margin-left: 90px;
+}
+.pad-rit{
+  padding-right:40px;
+}
+.img-marg{
+  margin:80px;
+}
+.pri-bor{
+  border:1px solid gray;
+  margin:20px 0px 20px 0px;
+}
+.back-blu-clr{
+  background-color:#003B59!important;
+  color:white!important;
+}
+.tofi{
+  margin-top:25px;
+}
+.pt-tp{
+  padding:20px;
+}
+.icn-pen-rit{
+  display:flex;
+  justify-content:right;
+  align-items:right;
+  text-align:right;
+  width:100%;
+}
+
+.prof-mar-btn-lft{
+  margin-left:90px;
+}
+.sav-rign-dta{
+  padding-right:-180px!important;
+  
+}
+
+
+
+
+
+
+
+  
+  @media screen and (max-width: 1200px) {
+       .butn-right{
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    display: flex;
+    width: 110%;
+    margin-top: 40px;
+    margin-left:-90px;
+   
+  }
+  
+  .prof-button{
+  background-color: #003B59;
+  padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+
+   
+  
+  }
+  }
+
+
+@media screen and (max-width: 992px) {
+  .navbar-nav{
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 700;
+  }
+  .row-map{
+    width:400;
+    height:250;
+  }
+      .serch{
+      border-radius: 50px!important;
+      border: none!important;
+      height: 30px;
+      width: 20%!important;
+      margin-top: 7px;
+      margin-left: 30px;
+    }
+    .navbar-collapse{
+        margin-top:10px;
+    }
+        
+  
+
+  .prof-button{
+  background-color: #003B59;
+  padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+  
+  }
+  
+.pad-rit-memo-page{
+  margin-right:90px;
+}
+.main-about-colom-1{
+  width:100%!important;
+}
+.main-about-colom-2{
+  display:none;
+}
+.main-profile-icons{
+
+margin-left:100px;
+}
+}
+@media (max-width: 824px) {
+   .circle{
+background-color: #e4e4e4; 
+font-size:14px;
+color:#003B59;
+text-decoration:none;
+width: 70px; 
+height: 70px; 
+border-radius: 50%;
+margin-top: 100px; 
+display: flex;  
+flex-direction:column;
+justify-content: center; 
+align-items: center; 
+text-align: center;
+margin-right:10px;
+padding:30px;
+}
+.circle .fa{
+font-size:14px;
+
+}
+}
+@media (max-width: 684px) {
+    
+.main-profile-icons{
+
+margin-left:10px;
+}
+}
+@media (max-width: 768px) {
+     .prof-button{
+      background-color: #003B59;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+    
+  }
+  .fld-mar{
+      margin-top:25px;
+  }
+   .row-map{
+    width:300;
+    height:200;
+  }
+  .disp-block{
+     display:none; 
+   
+  }
+  .wid{
+      width:100%;
+  }
+  
+.pt-tp{
+  padding:0px;
+  
+}
+.about-borser .about-borser-td-2{
+  display:flex;
+  justify-content: space-between;
+width:250px!important;
+}
+.main-about-colom-1{
+  width:100%;
+}
+  .card-dv{
+
+margin-left:-90px!important;
+ 
+}
+
+.circle-img-text {
+
+padding-left: 140px!important;
+
+}
+
+  
+          .map-center{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+width: 200px!important;
+padding-top:40px;
+}
+      .butn-right{
+        display: none;
+      }
+      .mar-tp{
+          margin-top:70px!important;
+      }
+     .Followers{
+          font-size:13px;
+     }
+      .catagories{
+        width: 70%;
+        margin-left: 130px;
+        margin-top:10px;
+        margin-bottom:-20px;
+  }
+  .pad{
+      padding-right:70px!important;
+  }
+      
+  
+  
+
+  .serch{
+    width:80%!important; 
+    margin-left:10px;
+  }
+  #textbox2{
+      width:60%!important;
+  }
+ 
+}
+ @media (max-width: 596px) {
+     .circle{
+background-color: #e4e4e4; 
+font-size:12px;
+color:#003B59;
+text-decoration:none;
+width: 60px; 
+height: 60px; 
+border-radius: 50%;
+margin-top: 100px; 
+display: flex;  
+flex-direction:column;
+justify-content: center; 
+align-items: center; 
+text-align: center;
+margin-right:10px;
+padding:30px;
+}
+.circle .fa{
+font-size:12px;
+
+}
+ }
+  @media (max-width: 571px) {
+       .disp-block{
+        display:none;
+      }
+      .every-div-margin{
+          margin-left:-50px!important;
+      }
+      
+      .every-margin{
+          margin-left: 40px;
+          margin-right:90px!important;
+      }
+      .edit-profile-row{
+           margin-left:40px!important;
+      }
+      .hr-div{
+          padding: 0px 0px 0px 0px!important;
+         
+      }
+      .marlf{
+          margin-left:0px!important;
+          margin-top:-30px!important;
+      }
+     
+      .pri-marg-rit{
+          margin-right:50px!important;
+      }
+      .sav-rign-dta{
+      left:160px!important;
+      font-size:small;
+     
+      
+  }
+   }
+ @media (max-width: 570px) {
+    
+  .sav-dta{
+      left:230px!important;
+  }
+     #textbox2{
+      width:100%!important;
+  }
+ }
+
+   @media (max-width: 517px) {
+      .main-profile-icons{
+          margin-top:30px;
+          
+      }
+         .prof-button{
+      background-color: #003B59;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+  }
+      .catagorie{
+      margin-top:-70px!important;
+      margin-left:-10px!important;
+  }
+  
+   }
+    @media (max-width: 526px) {
+    
+       .mar-top{
+        display:flex;
+        flex-wrap:wrap;
+     }
+     .mt-a{
+         margin-top:5px!important;
+     }
+    }
+   @media (max-width: 496px) {
+     .prof-button{
+      background-color: #003B59;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+     font-size:small;
+  }
+  .pri-marg{
+          margin-right:50px!important;
+      }
+      .about-borser{
+          font-size:small;
+      }
+      .sav-dta{
+      left:150px!important;
+      font-size:small;
+  }
+  .sav-rign-dta{
+      left:140px!important;
+      font-size:small;
+     
+      
+  }
+   .frm-ctrl{
+      font-size:10px!important;
+  }
+  .prof-link{
+      font-size:13px!important;
+      margin-top:10px;
+  }
+      
+       
+   }
+    @media (max-width: 476px) {
+        .mt-b{
+         margin-top:5px!important;
+     }
+    }
+    @media (max-width: 442px) {
+.about-borser .about-borser-td-2{
+  display:flex;
+  justify-content: space-between;
+width:180px!important;
+}
+     .mar-top{
+         margin-top:-120px;
+     }
+        .Followers{
+          margin-top: 0px;
+          margin-right: -23px;
+
+        }
+        .catagories{
+            margin-top:-130px!important;
+        }
+        .circle-img{
+            font-size:16px;
+        }
+         .mrgn-tp{
+           margin-top:60px!important;
+       }
+        .mar-tp{
+          margin-top:0px!important;
+      }
+       .pro-img{
+        border-radius:50%;
+        height: 150px;
+        width:150px;
+      }
+       .every-margin{
+          margin-left: 40px;
+          padding-right:90px!important;
+      }
+      .pri-marg-rit{
+          margin-right:-40px!important;
+      }
+        .prof-button{
+      background-color: #003B59;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+     font-size:small;
+  }
+  .table-sm{
+      font-size:12px!important;
+  }
+  
+  #textbox2{
+      width:85%!important;
+  }
+  #dropdown{
+       width:85%!important;
+  }
+  
+    }
+     @media (max-width: 420px) {
+      .prof-button{
+      background-color: #003B59;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+     font-size:small;
+  }
+   .catagories{
+       margin-left:100px;
+   }
+ .hr-div{
+          padding: 0px 0px 0px 0px!important;
+         
+      }
+   }
+    @media (max-width: 415px) {
+   .sav-rign-dta{ 
+       bottom:5px!important;
+   }
+        
+    }
+     @media (max-width: 407px) {
+        .mt-c{
+         margin-top:5px!important;
+     }
+    }
+   @media (max-width: 400px) {
+      
+       
+        .navbar-brand img{
+          width: 250px!important;
+          padding-left: 10px;
+          
+        }
+         .navbar-brand img{
+          width: 200px!important;
+          padding-left: 10px;
+          
+        }
+          .img-marg{
+              margin:10px;
+          }
+          .row-map{
+        width:250;
+        height:180;
+      }
+          
+    }
+    
+     @media (max-width: 380px) {
+      
+        
+        .prof-button{
+      background-color: #003B59;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+     font-size:small;
+  }
+      .about-borser .about-borser-td-2{
+  display:flex;
+  justify-content: space-between;
+width:135px!important;
+}
+       
+    }
+   @media (max-width: 375px) {
+      .prof-button{
+      background-color: #003B59;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+     font-size:small;
+  }
+  .img-btn-sel{
+              margin-left:180px!important;
+          }
+       
+   }
+@media (max-width: 347px) {
+.prof-button{
+      background-color: #003B59;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 4px;
+     font-size:small;
+  }
+   .sav-dta{ 
+       bottom:5px!important;
+   }
+   
+}
+@media (max-width: 336px) {
+   .mt-d{
+         margin-top:5px!important;
+     }
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
